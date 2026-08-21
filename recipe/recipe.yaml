@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "2026.5.0"
+  version: "2026.8.0"
   python_check_max: "3.14"
 
 package:
@@ -11,10 +11,10 @@ package:
 
 source:
   - url: https://files.pythonhosted.org/packages/source/j/jsonschema-markdown/jsonschema_markdown-${{ version }}.tar.gz
-    sha256: a52e40c4bf39859a89d77dc92008c812e240df8c5b7bac093e6e1c8b9181af56
+    sha256: b286414d739f918fdff4213945a1e1b0d7ffab4f94f4d1d410545b8c9224d06a
     target_directory: dist
   - url: https://github.com/elisiariocouto/jsonschema-markdown/archive/refs/tags/${{ version }}.tar.gz
-    sha256: 43300aa3903578126414580db109c26a72e96d20847a9d7d8eda0dd90fe14e6b
+    sha256: 52bed0f5335100f594a083a4a3f04994d9701c36f66d9d900a5d50621af24821
     target_directory: src
     patches:
       # TODO: remove after https://github.com/elisiariocouto/jsonschema-markdown/pull/44
