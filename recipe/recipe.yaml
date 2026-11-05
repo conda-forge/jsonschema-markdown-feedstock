@@ -46,7 +46,7 @@ tests:
         - etc/conda/test-files/jsonschema-markdown/**
       site_packages:
         - jsonschema_markdown/**
-        - jsonschema_markdown-${{ version }}.dist-info/
+        - jsonschema_markdown-${{ version }}.dist-info/**
   - python:
       imports: jsonschema_markdown
       pip_check: true
